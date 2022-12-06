@@ -259,7 +259,7 @@
             </objects>
             <point key="canvasLocation" x="2616" y="545"/>
         </scene>
-        <!--Medical Reminders-->
+        <!--Medical Reminder-->
         <scene sceneID="9zG-EC-pbR">
             <objects>
                 <viewController id="N90-fe-BaT" customClass="HomeViewController" customModule="MedTrackerAppStoryBoard" customModuleProvider="target" sceneMemberID="viewController">
@@ -268,7 +268,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="GCG-zy-O8s">
-                                <rect key="frame" x="0.0" y="103" width="393" height="666"/>
+                                <rect key="frame" x="0.0" y="155" width="393" height="614"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" textLabel="Mvf-0v-PJS" detailTextLabel="9kr-hZ-9vb" style="IBUITableViewCellStyleSubtitle" id="nL9-CD-9RW">
@@ -307,7 +307,7 @@
                             <constraint firstItem="GCG-zy-O8s" firstAttribute="top" secondItem="Q81-aw-6RC" secondAttribute="top" id="x2f-sF-H7A"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Medical Reminders" id="XFD-kf-dVg">
+                    <navigationItem key="navigationItem" title="Medical Reminder" id="XFD-kf-dVg">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="iep-Jh-dFe">
                             <connections>
                                 <action selector="didTapAdd" destination="N90-fe-BaT" id="fqk-Kt-jFV"/>
